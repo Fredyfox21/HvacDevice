@@ -1,0 +1,5 @@
+/home/viceroy/Firstproject/obj/Debug/net8.0/Firstproject.csproj.AssemblyReference.cache
+/home/viceroy/Firstproject/obj/Debug/net8.0/Firstproject.GeneratedMSBuildEditorConfig.editorconfig
+/home/viceroy/Firstproject/obj/Debug/net8.0/Firstproject.AssemblyInfoInputs.cache
+/home/viceroy/Firstproject/obj/Debug/net8.0/Firstproject.AssemblyInfo.cs
+/home/viceroy/Firstproject/obj/Debug/net8.0/Firstproject.csproj.CoreCompileInputs.cache

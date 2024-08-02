@@ -1,0 +1,5 @@
+/home/viceroy/Firstproject/obj/Release/net8.0/linux-arm64/Firstproject.csproj.AssemblyReference.cache
+/home/viceroy/Firstproject/obj/Release/net8.0/linux-arm64/Firstproject.GeneratedMSBuildEditorConfig.editorconfig
+/home/viceroy/Firstproject/obj/Release/net8.0/linux-arm64/Firstproject.AssemblyInfoInputs.cache
+/home/viceroy/Firstproject/obj/Release/net8.0/linux-arm64/Firstproject.AssemblyInfo.cs
+/home/viceroy/Firstproject/obj/Release/net8.0/linux-arm64/Firstproject.csproj.CoreCompileInputs.cache
