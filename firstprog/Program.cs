@@ -16,9 +16,10 @@ using Azure.Communication.Email;
 
 class Program
 {
-    private static DeviceClient s_deviceClient;  
-    private readonly static string s_connectionString01 = "HostName=raspHelpMe.azure-devices.net;DeviceId=raspdev;SharedAccessKey=wxN/1pd09jXWTxC37swSZ4YeWuq+mTCsPAIoTDNHUPU="; 
-    
+    private static DeviceClient s_deviceClient;
+    private readonly static string s_connectionString01 = Environment.GetEnvironmentVariable("IOT_HUB_CONNECTION_STRING")
+        ?? throw new InvalidOperationException("Environment variable IOT_HUB_CONNECTION_STRING is not set.");
+
     static async Task sendHTTP(double temperature, double humidity, bool hvacOn) {
 
         int hvac=0;
@@ -366,7 +367,8 @@ class Program
     static void messageemail(){
 
         // This code retrieves your connection string from an environment variable.
-        string connectionString = "endpoint=https://comsfordayss.unitedstates.communication.azure.com/;accesskey=6321lfYoXapAI2KFpraeboxgxpVLvACA9cY51WqidaSVWQEbO42tJQQJ99AGACULyCpAYtOZAAAAAZCStKcC";
+        string connectionString = Environment.GetEnvironmentVariable("ACS_CONNECTION_STRING")
+            ?? throw new InvalidOperationException("Environment variable ACS_CONNECTION_STRING is not set.");
         var emailClient = new EmailClient(connectionString);
 
 
